@@ -1,9 +1,7 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
-import LogoSection from './components/LogoSection.vue'
+import SamplePage from './pages/SamplePage.vue'
 </script>
 
 <template>
-  <LogoSection />
-  <HelloWorld msg="Vite + Vue Single File " />
+  <SamplePage />
 </template>
