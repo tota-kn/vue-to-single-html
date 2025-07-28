@@ -17,6 +17,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.31.0",
+    "@tailwindcss/vite": "^4.1.11",
     "@typescript-eslint/eslint-plugin": "^8.38.0",
     "@typescript-eslint/parser": "^8.38.0",
     "@vitejs/plugin-vue": "^6.0.0",
@@ -25,6 +26,7 @@
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-vue": "^10.3.0",
     "prettier": "^3.6.2",
+    "tailwindcss": "^4.1.11",
     "typescript": "~5.8.3",
     "vite": "^7.0.4",
     "vite-plugin-singlefile": "^2.3.0",
