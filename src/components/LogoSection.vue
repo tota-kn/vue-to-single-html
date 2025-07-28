@@ -1,10 +1,11 @@
+<script setup lang="ts">
+import { VITE_URL } from '../utils/constant'
+</script>
+
 <template>
   <div>
-    <a href="https://vite.dev" target="_blank">
+    <a :href="VITE_URL" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="../assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
     <div class="font-bold underline">Hello world!</div>
   </div>
