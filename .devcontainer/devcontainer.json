@@ -1,0 +1,32 @@
+{
+	"name": "Node.js & TypeScript",
+	"image": "mcr.microsoft.com/devcontainers/typescript-node:1-22-bookworm",
+	"features": {
+		"ghcr.io/nils-geistmann/devcontainers-features/zsh:0": {},
+		"ghcr.io/devcontainers-extra/features/pnpm:2": {}
+	},
+	"forwardPorts": [
+		5173
+	],
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"dbaeumer.vscode-eslint",
+				"esbenp.prettier-vscode",
+				"eamodio.gitlens",
+				"bradlc.vscode-tailwindcss",
+				"Vue.volar"
+			],
+			"settings": {
+				"terminal.integrated.defaultProfile.linux": "zsh",
+				"terminal.integrated.profiles.linux": {
+					"zsh": {
+						"path": "zsh"
+					}
+				}
+			}
+		}
+	},
+	"postCreateCommand": "pnpm install",
+	"remoteUser": "node"
+}

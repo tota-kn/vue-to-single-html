@@ -5,4 +5,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
   plugins: [vue(), viteSingleFile(), tailwindcss()],
+  server: {
+    host: true,
+  },
 })
